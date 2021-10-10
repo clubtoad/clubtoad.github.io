@@ -22,16 +22,16 @@
 ##############################################################################
 # Set Variables
 
-$guestbookurl = "http://your.host.com/~yourname/guestbook.html";
-$guestbookreal = "/home/yourname/public_html/guestbook.html";
-$guestlog = "/home/yourname/public_html/guestlog.html";
-$cgiurl = "http://your.host.com/cgi-bin/guestbook.pl";
+$guestbookurl = "clubtoad.net";
+$guestbookreal = "index.html";
+$guestlog = "guestlog.html";
+$cgiurl = "http://clubtoad.net/cgi-bin/guestbook.pl";
 $date_command = "/usr/bin/date";
 
 # Set Your Options:
 $mail = 0;              # 1 = Yes; 0 = No
-$uselog = 1;            # 1 = Yes; 0 = No
-$linkmail = 1;          # 1 = Yes; 0 = No
+$uselog = 0;            # 1 = Yes; 0 = No
+$linkmail = 0;          # 1 = Yes; 0 = No
 $separator = 1;         # 1 = <hr>; 0 = <p>
 $redirection = 0;       # 1 = Yes; 0 = No
 $entry_order = 1;       # 1 = Newest entries added first;
