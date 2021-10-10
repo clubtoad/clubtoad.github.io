@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 #variables that will be used later.
-$guestbookreal = "clubtoad.github.io/index.html";
+$guestbookreal = "index.html";
 $return = "http://www.clubtoad.net/index.html";
 read(STDIN, $buffer, $ENV{'CONTENT_LENGTH'});
 @pairs = split(/&/, $buffer);
